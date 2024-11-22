@@ -3,16 +3,18 @@ main {
 }
 
 aside {
-    width: auto;
-    margin: auto;
-    border: 1px;
-    padding: 2px;
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0  / 0.2);
+    padding: 1px;
     background-color: #002147;
     color: #00BFFF;
+    text-align: center;
 }
 
-img aside {
-    max-width: 200px;
+aside img {
+    width: 200px;
+    height: auto;
 }
 
 main img {
@@ -21,11 +23,11 @@ main img {
 }
 
 p {
-    padding: 0px;
+    padding: 0;
 }
 
 footer {
-    margin-top: 5px;
-    border-top: 5px;
+    margin-top: 15px;
+    border-top: 1px solid #000;
     text-align: center;
 }
