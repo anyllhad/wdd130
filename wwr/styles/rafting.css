@@ -20,13 +20,13 @@ main h1{
     width: 20%;
     height: auto;
     position: absolute;
-    float: right;
 }
 
 .hero h1 {
-    position: relative;
+    position: absolute;
     width: 100%;
 }
+
 h2, h3 {
     color: #FFB700;
 }
@@ -35,6 +35,13 @@ p {
     color: black;
 }
 
+article {
+    position: absolute;
+}
+
+article img {
+    float: right;
+}
 footer a {
     text-decoration: none;
 }
