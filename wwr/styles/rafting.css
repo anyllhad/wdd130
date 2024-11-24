@@ -1,7 +1,33 @@
 :root {
---primary-color: #063462
+--primary-color: #003362
 --secondary-color: #245B26
--- accent1-color: #B0B2B8
--- accent2-color: #DAE9E9
+--accent1-color: #B0B2B8
+--accent2-color: #DAE9E9
+--heading-font: 'Fira Sans';
+--paragraph-font: 'Open Sans';
 }
 
+main h1{
+    color: #FFB700;
+    background-color: #003362;  
+}
+
+h2, h3 {
+    color: #FFB700;
+}
+
+p {
+    color: black;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.hero article img {
+    display: block;
+    width: 60%;
+    height: auto;
+    position: relative;
+    float: right;
+}
