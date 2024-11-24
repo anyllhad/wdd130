@@ -12,6 +12,21 @@ main h1{
     background-color: #003362;  
 }
 
+.hero {
+    position: relative;
+}
+.hero article img {
+    display: block;
+    width: 20%;
+    height: auto;
+    position: absolute;
+    float: right;
+}
+
+.hero h1 {
+    position: relative;
+    width: 100%;
+}
 h2, h3 {
     color: #FFB700;
 }
@@ -24,10 +39,4 @@ footer a {
     text-decoration: none;
 }
 
-.hero article img {
-    display: block;
-    width: 60%;
-    height: auto;
-    position: relative;
-    float: right;
-}
+
