@@ -29,8 +29,7 @@ header img {
 	height: auto;
 }
 
-h1 {
-	font-size: 2rem;
+h1 h2 {
 	font-family: var(--heading-font);
     color: #F2BA28;
     text-align: center;
@@ -67,6 +66,7 @@ nav {
 .hero {
     display: grid;
     grid-template-columns: auto auto;
+    grid-template-rows: auto;
     border: #094074 solid;
     padding: 20px;
 }
@@ -76,9 +76,10 @@ nav {
     width: 450px;
 }
 
-.hero h1 {
+.hero h2 {
     grid-column-start: 1;
     grid-column-end: 3;
+    text-align: center;
 }
 
 .history {
@@ -92,9 +93,10 @@ nav {
     color: var(--secondary-color);
 }
 
-.history h1 {
+.history h2 {
     grid-column-start: 1;
     grid-column-end: 4;
+    text-align: center;
 }
 
 .history img {
