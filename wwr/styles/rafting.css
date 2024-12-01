@@ -129,7 +129,16 @@ footer ul {
 
 .sociallinks {
     display: grid;
-    grid-template-columns: 4fr 1fr 1fr 1fr;
+    grid-template-columns: 10fr 1fr 1fr 1fr;
     grid-template-rows: auto;
-    margin-right: 600px;
+    justify-content: end;
+    margin-top: 50px;
+    background-color: var(--primary-color);
+    color: #F2BA28;
+    grid-gap: 100px;
+    padding: 20px;
+}
+
+.sociallinks p {
+    padding-top: 10px;
 }
