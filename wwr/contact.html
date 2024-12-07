@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ways to contact us">
+    <link href="styles/rafting.css" rel="stylesheet">
+    <meta name="author" content="Dahllyn Allsup">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Knewave&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Knewave&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <title>The Mountains are Calling | Contact Us</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/mtns.png" alt="mtns">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <h1>Contact Us</h1>
+    </header>
+
+    <main>
+        <!-- employees -->
+        <section>
+            <h2>Meet Some of Our Employees</h2>
+            <div class="employee">
+                <figure><img src="/images/employee1.jpg" alt="employee1">
+                    <figcaption>Daniel Dunlop</figcaption>
+                </figure>
+
+                <figure><img src="/images/employee2.jpg" alt="employee2">
+                    <figcaption>Christy Christofferson</figcaption>
+                </figure>
+
+                <figure><img src="/images/employee3.jpg" alt="employee3">
+                    <figcaption>Jacob Jacobson</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- small embedded google map -->
+        <section>
+            <div class="contact">
+                <figure><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19966.093314556092!2d30.237077374940156!3d51.278706077995636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472a8f00e898abcf%3A0x14bcceabdbfd5d2c!2sChornobyl%2C%20Kyiv%20Oblast%2C%20Ukraine!5e0!3m2!1sen!2sus!4v1733610739033!5m2!1sen!2sus"
+                        width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <figcaption>Map to Our Location</figcaption>
+                </figure>
+                <ul>
+                    <li>Phone: 801-555-1134</li>
+                    <li>Email: TheMtnsAreMalling@aol.com</li>
+                    <li>Address: Kirova St, Chornobyl, Kyiv Oblast, Ukraine, 07270</li>
+                </ul>
+        </section>
+        <form>
+            <h1>Send us a message</h1>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="reason">
+                    <h3>What is the purpose of the your message?</h3>
+                    <input type="radio" id="general" name="reason" value="General Inquiry">
+                    <label for="general">General Inquiry</label><br>
+                    <input type="radio" id="reservation" name="reason" value="Reservation Question">
+                    <label for="reservation">Reservation Question</label><br>
+                    <input type="radio" id="webSub" name="reason" value="Website Suggestion">
+                    <label for="webSub">Website Suggestion</label>
+                </div>
+                <br>
+                <label for="question">
+                    <h3>Please type your question in the box below</h3>
+                </label>
+                <textarea id="question" name="question" rows="3"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Submit</legend>
+                <div class="form-item column1">
+                    <label for="news">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="news" name="news">
+                </div>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <nav class="sociallinks">
+            <p>⛰️ © 2024 The Mountains are Calling White Water Rafting Dahllyn Allsup ⛰️</p>
+            <a href="https://facebook.com">
+                <img src="images/facebook.webp" alt="facebook">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.webp" alt="instagram">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.webp" alt="twitter">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
