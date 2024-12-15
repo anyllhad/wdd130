@@ -367,7 +367,7 @@ td {
   display: grid;
   grid-template-columns: 2fr 1fr;
   text-align: center;
-  background-image: url('https://anyllhad.github.io/wdd130/wwr/images/banner1.jpg'ff);
+  background-image: url('https://anyllhad.github.io/wdd130/wwr/images/banner1.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   max-width: 100%;
