@@ -19,7 +19,6 @@ body {
 
 main h1 {
   color: var(--secondary-color);
-
 }
 
 header {
@@ -29,8 +28,7 @@ header {
   height: 80px;
   position: sticky;
   top: 0;
-  z-index: 1
-  ;
+  z-index: 1;
 }
 
 header img {
@@ -57,7 +55,7 @@ h2 {
 .background {
   position: relative;
   text-align: center;
-  font-family: 'Trade Winds';
+  font-family: "Trade Winds";
 }
 
 .background img {
@@ -351,7 +349,7 @@ table {
 }
 
 th {
-  border-bottom:1px solid black;
+  border-bottom: 1px solid black;
   width: 100%;
   padding: 10px;
   font-size: 1.5rem;
@@ -359,7 +357,7 @@ th {
 }
 
 td {
-  border-bottom:1px solid black;
+  border-bottom: 1px solid black;
   width: 100%;
   padding: 10px;
   padding-right: 40px;
@@ -385,7 +383,7 @@ td {
   padding-top: 40px;
   padding-right: 30px;
   color: #fff;
-  text-shadow: 2px 2px 2px  var(--primary-color);
+  text-shadow: 2px 2px 2px var(--primary-color);
   font-size: 1.75rem;
 }
 
@@ -393,7 +391,7 @@ td {
   padding-top: 40px;
   padding-right: 30px;
   color: #fff;
-  text-shadow: 2px 2px 2px  var(--primary-color);
+  text-shadow: 2px 2px 2px var(--primary-color);
   font-size: 2.75rem;
 }
 
@@ -416,7 +414,6 @@ td {
 .history img {
   width: 300px;
   padding: 20px;
-
 }
 
 .history-two {
@@ -435,7 +432,7 @@ td {
 .history-two a {
   padding-top: 50px;
   padding-left: 20px;
-  font-family: 'Trade Winds';
+  font-family: "Trade Winds";
   grid-column-start: 1;
   grid-column-end: 3;
   font-size: 2.5rem;
